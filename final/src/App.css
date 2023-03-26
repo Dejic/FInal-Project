@@ -1,0 +1,58 @@
+/* .formsOnThePage {
+  text-align: center;
+  display: flex;
+  min-height: 30vh;
+  width: 35vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d);
+  border-radius: 25px;
+} */
+
+ .loginForm, .registerForm {
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  display: flex;
+  min-height: 30vh;
+  width: 35vh;
+  align-items: center;
+  justify-content: center;
+  /* background-image: linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d); */
+  border-radius: 25px;
+  background-color: black;
+}
+
+.auth-form-container{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.formLabel {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.formInput {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.formButton {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.formLinkButton {
+  background: none;
+  color: white;
+  text-decoration: underline;
+  border: none;
+}
